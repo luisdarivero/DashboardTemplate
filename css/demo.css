@@ -245,25 +245,6 @@ menu
 }
 
 
-
-body #cdawrap {
-	top: auto;
-	bottom: 15px;
-	background: rgba(0, 0, 0, 0.1);
-}
-
-body #cdawrap .carbon-text {
-	color: #505158;
-}
-
-body #cdawrap a.carbon-poweredby {
-	color: #7883c4;
-}
-
-body #cdawrap a:hover.carbon-poweredby {
-	color: #fff;
-}
-
 /*se ocupa*/
 @media screen and (max-width: 40em) {
 	.bp-header {
