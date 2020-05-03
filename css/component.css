@@ -51,6 +51,18 @@ menu
 	color: white;
 }
 
+/*menu__breadcrumbs*/
+.menu__breadcrumbs a {
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	/*Cambio de color - encabezado de menu lateral izquierdo*/
+	color: #dc5c5c;
+}
+
 /*
 ==========================================================
 	Se insertan las fuentes (iconos)
@@ -64,7 +76,7 @@ menu
 	font-weight: normal;
 	font-style: normal;
 	src: url('../fonts/icons/icomoon.eot?1gafuo');
-	src: url('../fonts/icons/icomoon.eot?1gafuo#iefix') format('embedded-opentype'), url('../fonts/icons/icomoon.woff2?1gafuo') format('woff2'), url('../fonts/icons/icomoon.ttf?1gafuo') format('truetype'), url('../fonts/icons/icomoon.woff?1gafuo') format('woff'), url('../fonts/icons/icomoon.svg?1gafuo#feather') format('svg');
+	src: url('../fonts/icons/icomoon.eot?1gafuo#iefix') format('embedded-opentype'), url('../fonts/icons/icomoon.ttf?1gafuo') format('truetype'), url('../fonts/icons/icomoon.woff?1gafuo') format('woff'), url('../fonts/icons/icomoon.svg?1gafuo#feather') format('svg');
 }
 
 /*
@@ -266,16 +278,6 @@ Menu styles
 	padding: 2.5em 3.75em 1.5em 2.5em;
 }
 
-/*menu__breadcrumbs*/
-.menu__breadcrumbs a {
-	font-weight: bold;
-	display: inline-block;
-	cursor: pointer;
-	vertical-align: middle;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: #5c5edc;
-}
 
 .menu__breadcrumbs a:last-child {
 	pointer-events: none;
@@ -291,12 +293,12 @@ Menu styles
 	font-family: 'feather';
 	display: inline-block;
 	padding: 0 0.5em;
-	color: #33353e;
+	color: #3e3333;
 }
 
 .menu__breadcrumbs a:not(:last-child):hover::after,
 .menu__breadcrumbs a:not(:last-child):focus::after {
-	color: #33353e;
+	color: #3e3333;
 }
 
 .menu__back {
@@ -361,8 +363,7 @@ Open and close buttons
 	font-size: 1.1em;
 	top: 1.25em;
 	right: 1em;
-	display: none;
-	color: #45464e;
+	display: none;	
 }
 
 /*se ocupa*/

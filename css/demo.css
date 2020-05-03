@@ -1,3 +1,25 @@
+
+/*
+==========================================================
+Empiezan estilos para cambiar los colores principales del
+menu
+==========================================================
+*/
+
+/*dummy-logo*/
+.dummy-logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 120px;
+	padding: 1em 0 0 0;
+	text-align: center;
+	color: #3b3d4a;
+	/*Cambio de color - parte superior de menu lateral izquierdo*/
+	background: #1c1d22;
+}
+
 /*=========================================
 	Resets
 ===========================================*/
@@ -178,19 +200,6 @@
 
 .bp-nav a:hover:after {
 	color: #fff;
-}
-
-/*dummy-logo*/
-.dummy-logo {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 300px;
-	height: 120px;
-	padding: 1em 0 0 0;
-	text-align: center;
-	color: #3b3d4a;
-	background: #1c1d22;
 }
 
 .dummy-icon {
