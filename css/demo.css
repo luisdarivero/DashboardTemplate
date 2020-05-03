@@ -1,5 +1,6 @@
-/* Resets */
-
+/*=========================================
+	Resets
+===========================================*/
 *,
 *:after,
 *:before {
@@ -9,18 +10,22 @@
 
 /* Helper classes */
 
+/*cf*/
 .cf:before,
 .cf:after {
 	content: ' ';
 	display: table;
 }
 
+/*cf*/
 .cf:after {
 	clear: both;
 }
 
 
-/* Main styles */
+/*=========================================
+	Main styles - estilos propios de html
+===========================================*/
 
 body {
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -42,20 +47,23 @@ a:hover {
 	color: #ddd;
 }
 
-
-.container {
+/*menu_container*/
+.menu_container {
 	overflow-y: auto;
 	height: 100vh;
 }
 
+/*=========================================
+	Blueprint header
+===========================================*/
 
-/* Blueprint header */
-
+/*bp-header*/
 .bp-header {
 	display: -webkit-flex;
 	display: flex;
 }
 
+/*bp-header__main*/
 .bp-header__main {
 	margin: 0 0 0 auto;
 	padding: 2em 3em 0;
@@ -69,6 +77,7 @@ a:hover {
 	margin: 0.25em 0 0;
 }
 
+/*bp-header__present*/
 .bp-header__present {
 	font-size: 0.75em;
 	font-weight: 700;
@@ -172,7 +181,7 @@ a:hover {
 	color: #fff;
 }
 
-
+/*dummy-logo*/
 .dummy-logo {
 	position: fixed;
 	top: 0;
@@ -195,6 +204,7 @@ a:hover {
 	text-transform: uppercase;
 }
 
+/*content*/
 .content {
 	position: relative;
 	min-height: 300px;
@@ -246,6 +256,7 @@ body #cdawrap a:hover.carbon-poweredby {
 	color: #fff;
 }
 
+/*se ocupa*/
 @media screen and (max-width: 40em) {
 	.bp-header {
 		padding-top: 3em;
