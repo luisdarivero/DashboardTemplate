@@ -1,8 +1,3 @@
-/* General Blueprint Style */
-
-
-
-
 /* Resets */
 
 *,
@@ -46,6 +41,7 @@ a {
 a:hover {
 	color: #ddd;
 }
+
 
 .container {
 	overflow-y: auto;
