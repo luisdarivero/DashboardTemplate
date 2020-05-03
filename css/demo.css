@@ -27,23 +27,22 @@
 	Main styles - estilos propios de html
 ===========================================*/
 
-body {
+.body_menu {
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	overflow: hidden;
 	margin: 0;
-	color: #cecece;
-	background: #2a2b30;
+	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-a {
+.text_menu {
 	text-decoration: none;
 	color: #fff;
 	outline: none;
 }
 
-a:hover {
+.text_menu:hover {
 	color: #ddd;
 }
 

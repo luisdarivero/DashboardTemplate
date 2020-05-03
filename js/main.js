@@ -77,7 +77,7 @@
 		// show breadcrumbs
 		breadcrumbsCtrl : true,
 		// initial breadcrumb text
-		initialBreadcrumb : 'all',
+		initialBreadcrumb : 'Menú',
 		// show back button
 		backCtrl : true,
 		// delay between each menu item sliding animation
@@ -346,6 +346,7 @@
 		}
 
 		var bc = document.createElement('a');
+		bc.className = "text_menu";
 		bc.href = '#'; // make it focusable
 		bc.innerHTML = idx ? this.menusArr[idx].name : this.options.initialBreadcrumb;
 		this.breadcrumbsCtrl.appendChild(bc);

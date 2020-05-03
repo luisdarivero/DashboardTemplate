@@ -28,6 +28,29 @@ menu
 	transition: color 0.1s;
 }
 
+/*menu__link*/
+.menu__link:hover,
+.menu__link:focus,
+.menu__link[data-submenu]:hover::after,
+.menu__link[data-submenu]:focus::after {
+	/*Cambio de color - letras de menu lateral iquierdo (cuando se seleccionan)*/
+	color: #ffffff;
+}
+
+/*icon--menu*/
+.icon--menu:before {
+	content: '\e903';
+	/*Cambio de color - icono para expandir el menu*/
+	color: black;
+}
+
+/*icon--cross*/
+.icon--cross:before {
+	content: '\e117';
+	/*Cambio de color - icono para cerrar el menu*/
+	color: white;
+}
+
 /*
 ==========================================================
 	Se insertan las fuentes (iconos)
@@ -66,17 +89,7 @@ Iconos disponibles:
 	speak: none;
 }
 
-/*icon--menu*/
-.icon--menu:before {
-	content: '\e903';
-	color: white;
-}
 
-/*icon--cross*/
-.icon--cross:before {
-	content: '\e117';
-	color: white;
-}
 
 
 /*========================================================
@@ -130,26 +143,7 @@ Menu styles
 	position: absolute;
 	right: 0;
 	padding: 0.25em 1.25em;
-	color: #2a2b30;
-}
-
-/*menu__link*/
-.menu__link:hover,
-.menu__link:focus,
-.menu__link[data-submenu]:hover::after,
-.menu__link[data-submenu]:focus::after {
-	color: #5c5edc;
-}
-
-.menu__link--current::before {
-	content: '\00B7';
-	font-size: 1.5em;
-	line-height: 0;
-	position: absolute;
-	top: 50%;
-	left: 0.5em;
-	height: 4px;
-	color: #5c5edc;
+	color: #302a2a;
 }
 
 [class^='animate-'],
@@ -272,6 +266,7 @@ Menu styles
 	padding: 2.5em 3.75em 1.5em 2.5em;
 }
 
+/*menu__breadcrumbs*/
 .menu__breadcrumbs a {
 	font-weight: bold;
 	display: inline-block;
