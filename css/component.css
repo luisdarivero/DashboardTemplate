@@ -56,12 +56,10 @@ menu
 	speak: none;
 }
 
-.icon--arrow-left:before {
-	content: '\e901';
-}
 
 .icon--menu:before {
 	content: '\e903';
+	color: red;
 }
 
 .icon--cross:before {
@@ -70,10 +68,6 @@ menu
 
 
 /* Menu styles */
-
-
-
-
 .menu__wrap {
 	position: absolute;
 	top: 3.5em;
